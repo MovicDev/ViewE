@@ -29,7 +29,7 @@ h1,h2,h3,h4{
     width: 100%;
     box-shadow: 0 0 5px gray;
     background-color: #fff;
-    z-index: 1;
+    z-index: 999;
   }
   
 .btn-light{
@@ -137,7 +137,13 @@ padding: 5px;
     padding:30px;
     width: 100%;
 }
-@media(min-width:900px){.capture{
+@media(max-width:700px){
+    .capture:nth-last-of-type(1){
+    padding-top: 90px;
+}
+}
+@media(min-width:900px){
+    .capture{
     padding-top: 100px;
     line-height: 1.20;  
     max-width: 80%;
@@ -423,9 +429,9 @@ footer {
     color:gray;
     margin:0 auto;
 }
-footer .foot a{
+/* footer .foot a{
     color: rgb(239, 238, 238);
-}
+} */
 /* ========================ABOUT STYLING============================ */
 #aboutHero{
     width: 100%;
@@ -577,7 +583,17 @@ font-size: 12px;
             padding: 10px;
           }
  }
+ #about_best{
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:0 auto;
+    background-color:#FFF9F2 ;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;;
 
+} 
 
 /* =============CONTACT============= */
 #contactHero{
