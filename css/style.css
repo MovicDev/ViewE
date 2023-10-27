@@ -464,7 +464,7 @@ display:none ;
 #about_best{
     justify-content: center;
     align-items: center;
-    width:80%;
+    width:90%;
     margin:0 auto;
     padding: 30px;
 
@@ -565,7 +565,7 @@ font-size: 12px;
          #about_best{
             justify-content: center;
             align-items: center;
-            width:80%;
+            width:90%;
             margin:0 auto;
             background-color:#FFF9F2 ;
             position: relative;
