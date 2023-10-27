@@ -552,8 +552,9 @@ bottom: 60px;
         flex-wrap: wrap-reverse;
     }
 
-    .mission .introducing{
-       padding-top: 50px;
+    .mission .introduction{
+    position: relative;
+    top: 50px;
     }
     #intro1,
     .mission{
