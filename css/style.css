@@ -138,8 +138,8 @@ padding: 5px;
     width: 100%;
 }
 @media(max-width:700px){
-    .capture:nth-last-of-type(1){
-    padding-top: 90px;
+    .capture:nth-of-type(1){
+    padding-top: 50px;
 }
 }
 @media(min-width:900px){
@@ -550,6 +550,10 @@ bottom: 60px;
     .mission .cap{
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
+    }
+
+    .mission .introducing{
+       padding-top: 50px;
     }
     #intro1,
     .mission{
