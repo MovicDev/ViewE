@@ -52,6 +52,10 @@ color:#6D1931;
 font-weight: bold;
 border-bottom: 3px solid #6D1931;
 }
+ ul li:nth-of-type(1) .activ{
+    color: #6D1931 !important;
+    border-bottom: 3px solid #6D1931 !important;
+}
 
 /* ======HERO========= */
 #hero{
@@ -79,7 +83,7 @@ border-bottom: 3px solid #6D1931;
      @media(min-width:800px){
         #hero .hero_text{
             position: relative;
-            top:  100px;
+            top:  10px;
         }
      }
 
