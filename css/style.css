@@ -261,6 +261,7 @@ display: none;
  .joi{
    position: relative;
    bottom: 100px;
+   left: 10px;
 
 
  }
@@ -322,6 +323,12 @@ display: none;
     border-right:4px solid #6D1931;
 
  }
+ .joi{
+    position: relative;
+    right: 10px;
+ 
+ 
+  }
  .joining h3{
     font-family: 'Martel', serif;
     font-weight:bolder;
@@ -430,10 +437,8 @@ footer {
     color:gray;
     margin:0 auto;
 }
-footer .fooot{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
+
+
 /* ========================ABOUT STYLING============================ */
 #aboutHero{
     width: 100%;
