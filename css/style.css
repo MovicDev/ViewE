@@ -77,7 +77,11 @@ border-bottom: 3px solid #6D1931;
         font-family: 'Martel', serif;
      }
      
-  
+     #hero .hero_text{
+        margin-top: 100px;
+    
+
+    }
 @media(max-width:700px) {
     #hero{
        
@@ -102,6 +106,7 @@ border-bottom: 3px solid #6D1931;
         margin-left: auto;
         width: 80%;
         align-items: center;
+    
 
     }
   
@@ -119,14 +124,14 @@ padding-top: 150px;
 
 /* ====== CLIENTS & PARTNERS========= */
 #client{
-    width: 70%;
+    width: 80%;
     margin:0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 50px;
 }
-#client .partners{
+#client img{
 border-bottom: 2px solid gray;
 padding: 5px;
 }
@@ -156,9 +161,7 @@ padding: 5px;
 }
 #power{
     justify-content: center;
-    align-items: center;
-    position:relative;
-    bottom: 150px;
+    align-items: center;  
     
 }
 }
