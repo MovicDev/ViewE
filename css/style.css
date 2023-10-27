@@ -137,11 +137,12 @@ padding: 5px;
     padding:30px;
     width: 100%;
 }
-.capture{
+@media(min-width:900px){.capture{
     padding-top: 100px;
     line-height: 1.20;  
     max-width: 80%;
     margin: 0 auto;
+}
 }
 
 @media(max-width:767px)
@@ -422,6 +423,9 @@ footer {
     color:gray;
     margin:0 auto;
 }
+footer .foot a{
+    color: rgb(239, 238, 238);
+}
 /* ========================ABOUT STYLING============================ */
 #aboutHero{
     width: 100%;
@@ -462,6 +466,7 @@ display:none ;
     align-items: center;
     width:80%;
     margin:0 auto;
+    padding: 30px;
 
 } 
 
@@ -481,7 +486,7 @@ display:none ;
     }
     #story .our{
         position: relative;
-        top: 150px;
+        top: 100px;
     }
     
 }
@@ -498,87 +503,81 @@ display:none ;
     padding: 1em 2em;
     font-weight: bold;
  }
-
-
- @media screen and (min-width:790px) {
-    #intro1 .cap{
-      display: grid;
-      grid-template-columns:repeat(2, 1fr);
-         }
-         #intro1{
-            background-color:#15394D;
-            width: 100%;
-            color: #ffff;
-            justify-content: center;
-            align-items: center;
-           width: 90%;
-           margin: 0 auto;
-           border-radius: 10px;
-           height: 40vh;
-        
-         }
-         #intro1 img{
-            height: 600px;
-          position: relative;
-          bottom:80px;
-         }
-
-         #intro1 p{
-            font-size: 20px;
-     
-            
-        }
-    .introducing{     
-        padding: 50px;
-        }
- }
- @media screen and (max-width:790px) {
-
-         #intro1{
-            background-color:#15394D;
-            width: 100%;
-            color: #ffff;
-            justify-content: center;
-            align-items: center;
-           text-align: center;
-          height: 60vh;
-          
-        
-         }
-         #intro1 img{
-          
-      width: 80%;
-      margin: 0 auto;
-   height: 70vh;
-        
-         }
-      
-      
- 
-
-         .introducing{     
-            padding: 10px;
-          }
-          #intro1 .container .cap{
-            flex-direction: row-reverse;
-            flex-wrap: wrap-reverse;
-        }
-        .line img{
-display: none;
-        }
-         
- #about_best{
+ .mission{
+    background-color:#15394D;
+    color: #ffff;
     justify-content: center;
     align-items: center;
-    width:80%;
-    margin:0 auto;
-    background-color:#FFF9F2 ;
-    position: relative;
-    z-index: 1;
-    bottom: 144px;
+   width: 90%;
+   padding: 0 auto;
+   border-radius: 10px;
+   height: 300px;
 
-} 
  }
+ #intro1 img{
+   height:450px;
+position: relative;
+bottom: 60px;
+ }
+ @media screen and (min-width:1200px) {
+    .mission{
+        background-color:#15394D;
+        color: #ffff;
+        justify-content: center;
+        align-items: center;
+       width: 90%;
+       margin: 0 auto;
+       border-radius: 10px;
+       
+    
+     }
+     #intro1 img{
+        height:450px;
+     position: relative;
+     bottom: 60px;
+     left: 100px;
+      }
+ }
+ @media screen and (max-width:768px) {
+   
+ 
+    .mission .cap{
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    #intro1,
+    .mission{
+        background-color:#15394D;
+        color: #ffff;
+       height: 500px;
+text-align:center;
+font-size: 12px;
+     }
+     .mission img{
+      position: relative;
+      top: 100px;
+      margin: 0 auto;
+     }
+      .line img{
+        display: none;
+                } 
+                 
+         #about_best{
+            justify-content: center;
+            align-items: center;
+            width:80%;
+            margin:0 auto;
+            background-color:#FFF9F2 ;
+            position: relative;
+            z-index: 1;
+            bottom: 144px;
+        
+        } 
+        .introducing{     
+            padding: 10px;
+          }
+ }
+
 
 /* =============CONTACT============= */
 #contactHero{
@@ -609,6 +608,15 @@ grid-template-columns: repeat(2, 1fr);
 display:none ;
 
     }
+   
+
+}
+@media screen and (max-width:600px) {
+    #contact img{
+display:none ;
+
+    }
+   
 
 }
 form .for{
@@ -702,8 +710,7 @@ display:none ;
                 align-items: center;
             margin: 0 auto;
             border-radius: 10px;
-            padding: 40px;
-            margin-top: 100px;
+   
         
         
    
@@ -718,8 +725,7 @@ display:none ;
         color: #fff;
         justify-content: center;
          align-items: center;
-        padding: 40px;
-        margin-top: 100px;
+    
         border-radius: none;
    
     }
