@@ -76,12 +76,13 @@ border-bottom: 3px solid #6D1931;
    {
         font-family: 'Martel', serif;
      }
-     
-     #hero .hero_text{
-        margin-top: 100px;
-    
+     @media(min-width:800px){
+        #hero .hero_text{
+            position: relative;
+            top:  100px;
+        }
+     }
 
-    }
 @media(max-width:700px) {
     #hero{
        
@@ -133,7 +134,8 @@ padding-top: 150px;
 }
 #client img{
 border-bottom: 2px solid gray;
-padding: 5px;
+padding-bottom: 20px;
+
 }
 /* ========POWER CAPTURE======== */
 #power{
@@ -357,7 +359,7 @@ display: none;
     margin: 100px;
  }
  .card-easy{
-    padding: 30px;
+    padding: 10px;
  }
  #easy p button{
     background-color: #6D1931;
@@ -428,9 +430,10 @@ footer {
     color:gray;
     margin:0 auto;
 }
-/* footer .foot a{
-    color: rgb(239, 238, 238);
-} */
+footer .fooot{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 /* ========================ABOUT STYLING============================ */
 #aboutHero{
     width: 100%;
