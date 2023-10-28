@@ -262,13 +262,19 @@ display: none;
     z-index: 1;
   bottom: 150px;
  }
- .joi{
+ .joii{
    position: relative;
    bottom: 100px;
-   right: 10px;
+ 
 
 
  }
+ .joii{
+    position: relative;
+    right: 10px;
+ 
+ 
+  }
 
  }
 
