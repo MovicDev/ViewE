@@ -32,6 +32,7 @@ h1,h2,h3,h4{
     box-shadow: 0 0 5px gray;
     background-color: #fff;
     z-index: 999;
+    color: black;
   }
   
 .btn-light{
@@ -776,11 +777,18 @@ display:none ;
     font-family: 'Martel', serif;
     
 }
+#blog h2{
+margin-left: 100px; 
+    color: #6D1931;
+}
 @media screen and (min-width:791px) {
     #blogHero .reach{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-
+#blog h2{
+    margin-left: 50px; 
+        color: #6D1931;
+    }
 
     }
 
