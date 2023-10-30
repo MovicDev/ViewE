@@ -21,7 +21,9 @@ h1,h2,h3,h4{
     .navbar-collapse button{
    display: none;
     }
-    
+    header ul li a{
+        line-height: 2;
+    }
   }
   header{
     position:fixed;
