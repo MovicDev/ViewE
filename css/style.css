@@ -362,11 +362,9 @@ display: none;
     background-color: #FFF9F2;
     color: black;
     padding: 1em 2em;
-    font-weight: bold;
-  
+    font-weight: bold; 
  }
  /* ====easy===== */
-
  #easy{
     margin: 100px;
  }
@@ -780,12 +778,13 @@ margin-left: 100px;
     #blogHero .reach{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+}
 #blog h2{
     margin-left: 50px; 
         color: #6D1931;
     }
 
-    }
+ 
 
     #blogHero img{
         position: relative;
