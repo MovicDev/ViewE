@@ -253,16 +253,11 @@ padding-bottom: 20px;
             flex-direction: row-reverse;
             flex-wrap: wrap-reverse;
         }
-        .line img{
+    #hr hr{
 display: none;
         }
-         #best{
-    background-color: #FFF9F2 ;
-    position: relative;
-    z-index: 1;
-  bottom: 150px;
- }
- .joii{
+         
+ .joi{
    position: relative;
    bottom: 100px;
  
@@ -273,7 +268,14 @@ display: none;
 
  }
 
-        
+ @media(max-width:768px){
+    #best{
+        background-color: #FFF9F2 ;
+        position: relative;
+        z-index: 1;
+      bottom: 150px;
+     }
+}   
 
 
  
@@ -328,12 +330,7 @@ display: none;
     border-right:4px solid #6D1931;
 
  }
- .joi{
-    position: relative;
-left: 10px;
 
- 
-  }
  .joining h3{
     font-family: 'Martel', serif;
     font-weight:bolder;
@@ -435,13 +432,6 @@ left: 10px;
 
 
 /* ===============FOOTER================= */
-footer {
-    border-top: 2px solid gray;
-    width: 90%;
-    height: 80px;
-    color:gray;
-    margin:0 auto;
-}
 
 
 /* ========================ABOUT STYLING============================ */
@@ -587,36 +577,30 @@ font-size: 12px;
       top: 100px;
       margin: 0 auto;
      }
-      .line img{
+     #hr hr{
         display: none;
                 } 
                  
-         #about_best{
-            justify-content: center;
-            align-items: center;
-            width:90%;
-            margin:0 auto;
-            background-color:#FFF9F2 ;
-            position: relative;
-            z-index: 1;
-            bottom: 144px;
-        
-        } 
+                #about_bestt{
+                    justify-content: center;
+                    align-items: center;
+                    width:90%;
+                    margin:0 auto;
+                    background-color:#FFF9F2 ;
+                    position: relative;
+                    z-index: 1;
+                    padding-bottom: 20px;
+                
+                } 
+                #about_bestt h2,#about_bestt p{
+                position:relative;
+                top: 40px;
+                }
         .introducing{     
             padding: 10px;
           }
  }
- #about_best{
-    justify-content: center;
-    align-items: center;
-    width:90%;
-    margin:0 auto;
-    background-color:#FFF9F2 ;
-    position: relative;
-    z-index: 1;
-    bottom: 100px;;
 
-} 
 
 /* =============CONTACT============= */
 #contactHero{
