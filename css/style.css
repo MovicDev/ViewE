@@ -13,6 +13,7 @@ body{
 }
 h1,h2,h3,h4{
     font-family: 'Martel', serif; ;
+    font-weight: bold;
 }
 /* ========================MAIN Styling================= */
 
@@ -114,8 +115,6 @@ border-bottom: 3px solid #6D1931;
         margin-left: auto;
         width: 80%;
         align-items: center;
-    
-
     }
   
     #hero .hero_text p:nth-of-type(2){
@@ -263,13 +262,8 @@ display: none;
  .joi{
    position: relative;
    bottom: 100px;
- 
-
-
  }
-
-
- }
+}
 
  @media(max-width:768px){
     #best{
@@ -798,4 +792,16 @@ display:none ;
 
     }
 
+}
+@media(min-width:789px){
+    #pagination2{
+        display: none;
+
+    }
+}
+@media(max-width:789px){
+    #pagination1{
+        display: none;
+
+    }
 }
