@@ -18,12 +18,7 @@ h1,h2,h3,h4{
 /* ========================MAIN Styling================= */
 
 /* ======NAVBAR========= */
-@media (max-width:481px){
-    .navbar-brand{
-        display: none;
-    }
- 
-}
+
 @media screen and (max-width:997px) {
     .navbar-collapse button{
    display: none;
@@ -31,19 +26,19 @@ h1,h2,h3,h4{
     header ul li a{
         line-height: 2;
     }
-    /* Reduce the length of the border-bottom to 20% of the container width */
+
 .navbar {
     position: relative;
   }
   
-  .navbar::before {
+  .navbar-collapse li a::before {
     content: "";
     position: absolute;
-    left: 40%; /* Adjust this value to set the desired width (e.g., 20%) */
+    left: 40%;
     bottom: 0;
-    width: 20%; /* Set the desired percentage width (e.g., 20%) */
-    height: 1px; /* Adjust the height as needed */
-    background-color: red; /* Set the desired color */
+    width: 20%; 
+    height: 1px;
+    background-color: #6D1931;
   }
   
   }
