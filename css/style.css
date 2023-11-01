@@ -18,6 +18,11 @@ h1,h2,h3,h4{
 /* ========================MAIN Styling================= */
 
 /* ======NAVBAR========= */
+@media (max-width:481px){
+    .navbar-brand{
+        display: none;
+    }
+}
 @media screen and (max-width:997px) {
     .navbar-collapse button{
    display: none;
@@ -35,7 +40,9 @@ h1,h2,h3,h4{
     z-index: 999;
     color: black;
   }
-  
+  .navbar-collapse{
+    color:black;
+  }
 .btn-light{
     background-color: #6D1931;
     color: #fff;
