@@ -23,8 +23,7 @@ h1,h2,h3,h4{
         display: none;
     }
     .navbar-toggler{
-        position: fixed;
-        z-index: 1;
+        float: inline-end;
     }
 }
 @media screen and (max-width:997px) {
