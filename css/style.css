@@ -22,9 +22,7 @@ h1,h2,h3,h4{
     .navbar-brand{
         display: none;
     }
-    .navbar-toggler{
-        float: inline-end;
-    }
+ 
 }
 @media screen and (max-width:997px) {
     .navbar-collapse button{
@@ -33,6 +31,21 @@ h1,h2,h3,h4{
     header ul li a{
         line-height: 2;
     }
+    /* Reduce the length of the border-bottom to 20% of the container width */
+.navbar {
+    position: relative;
+  }
+  
+  .navbar::before {
+    content: "";
+    position: absolute;
+    left: 40%; /* Adjust this value to set the desired width (e.g., 20%) */
+    bottom: 0;
+    width: 20%; /* Set the desired percentage width (e.g., 20%) */
+    height: 1px; /* Adjust the height as needed */
+    background-color: red; /* Set the desired color */
+  }
+  
   }
   header{
     position:fixed;
