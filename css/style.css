@@ -22,6 +22,10 @@ h1,h2,h3,h4{
     .navbar-brand{
         display: none;
     }
+    .navbar-toggler{
+        position: fixed;
+        z-index: 1;
+    }
 }
 @media screen and (max-width:997px) {
     .navbar-collapse button{
